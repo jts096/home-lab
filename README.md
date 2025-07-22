@@ -8,10 +8,11 @@ This repository documents a cybersecurity home lab built using VirtualBox, Ubunt
 - Configured basic firewall rules (UFW)
 - Performed initial reconnaissance with Nmap and Nikto
 - Captured and analyzed traffic with Wireshark
+- Simulated a DoS and analyzed with Splunk
 
 ## Next Steps
-- Log analysis with Splunk
-- Simulate a DDoS or port scan
+- DoS mitigation
+- Simulate a DDoS 
 - Vulnerability scanning with OpenVAS
 - Simulated incident response
 
