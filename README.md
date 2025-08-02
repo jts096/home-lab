@@ -1,20 +1,40 @@
-# Cybersecurity Home Lab Project (In Progress)
+# Cybersecurity Home Lab: Attacker-Defender Simulation
 
-This repository documents a cybersecurity home lab built using VirtualBox, Ubuntu Server, and Kali Linux.
+## Overview
+This project simulates and documents a small internal network under attack using VirtualBox VMs. It evolved from a focus on network security monitoring and detection to include application security testing.
 
-## Completed so far
-- Set up isolated VMs with internal and NAT networking
-- Installed Ubuntu Server and Kali Linux
-- Configured basic firewall rules (UFW)
-- Performed initial reconnaissance with Nmap and Nikto
-- Captured and analyzed traffic with Wireshark
-- Simulated a DoS and analyzed with Splunk
+### Environment
+- **Ubuntu Server** (target)
+- **Kali Linux** (attacker)
+- Both VMs use:
+  - Internal Network`
+  - NAT` 
 
+---
+## Completed
+- Initial network setup
+- Apache Web Server and UFW configuration
+- Recon attack with Nmap and Nikto 
+- DoS attack with Apache Bench and mitigation with Fail2Ban
+- Nessus vulnerability scan
+- DVWA (Damn Vulnerable Web App) configuration
+- OWASP ZAP scan on DVWA
+- Detection of attacks with Splunk and Wireshark
+
+---
 ## Next Steps
-- DoS mitigation
-- Simulate a DDoS 
-- Vulnerability scanning with OpenVAS
-- Simulated incident response
+- Perform manual exploitation of vulnerabilities flagged by ZAP
+- Raise DVWA security level and retest attacks
 
-## Author
-Julia Tsien
+---
+## Skills Practiced
+- Network configuration and firewalling
+- SIEM integration (Splunk)
+- Web vulnerability scanning
+- Packet analysis
+- Application-layer penetration testing
+
+---
+## Disclaimer
+This lab is for educational purposes only in a contained virtual environment. Do not run scans or attacks on external infrastructure.
+
