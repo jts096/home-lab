@@ -7,7 +7,7 @@ This project simulates and documents a small internal network under attack using
 - **Ubuntu Server** (target)
 - **Kali Linux** (attacker)
 - Both VMs use:
-  - Internal Network`
+  - Internal Network
   - NAT` 
 
 ---
