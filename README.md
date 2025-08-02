@@ -8,7 +8,7 @@ This project simulates and documents a small internal network under attack using
 - **Kali Linux** (attacker)
 - Both VMs use:
   - Internal Network
-  - NAT` 
+  - NAT
 
 ---
 ## Completed
